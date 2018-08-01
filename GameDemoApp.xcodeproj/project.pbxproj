@@ -12,6 +12,46 @@
 		FD7FADEF21118082000C91CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD7FADED21118082000C91CF /* Main.storyboard */; };
 		FD7FADF121118082000C91CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD7FADF021118082000C91CF /* Assets.xcassets */; };
 		FD7FADF421118082000C91CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD7FADF221118082000C91CF /* LaunchScreen.storyboard */; };
+		FD7FAE2E211180B6000C91CF /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD7FADFC211180B6000C91CF /* 1.jpg */; };
+		FD7FAE2F211180B6000C91CF /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD7FADFD211180B6000C91CF /* 2.jpg */; };
+		FD7FAE30211180B6000C91CF /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD7FADFE211180B6000C91CF /* 3.jpg */; };
+		FD7FAE31211180B6000C91CF /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD7FADFF211180B6000C91CF /* 4.jpg */; };
+		FD7FAE32211180B6000C91CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD7FAE01211180B6000C91CF /* AppDelegate.m */; };
+		FD7FAE33211180B6000C91CF /* Brown rock chat.png in Resources */ = {isa = PBXBuildFile; fileRef = FD7FAE03211180B6000C91CF /* Brown rock chat.png */; };
+		FD7FAE34211180B6000C91CF /* Campbell teal.png in Resources */ = {isa = PBXBuildFile; fileRef = FD7FAE04211180B6000C91CF /* Campbell teal.png */; };
+		FD7FAE35211180B6000C91CF /* Dodo.png in Resources */ = {isa = PBXBuildFile; fileRef = FD7FAE05211180B6000C91CF /* Dodo.png */; };
+		FD7FAE36211180B6000C91CF /* Eider.png in Resources */ = {isa = PBXBuildFile; fileRef = FD7FAE06211180B6000C91CF /* Eider.png */; };
+		FD7FAE37211180B6000C91CF /* fb-login-button-png-737.png in Resources */ = {isa = PBXBuildFile; fileRef = FD7FAE07211180B6000C91CF /* fb-login-button-png-737.png */; };
+		FD7FAE38211180B6000C91CF /* fblogin.png in Resources */ = {isa = PBXBuildFile; fileRef = FD7FAE08211180B6000C91CF /* fblogin.png */; };
+		FD7FAE39211180B6000C91CF /* Flightless cormorant.png in Resources */ = {isa = PBXBuildFile; fileRef = FD7FAE09211180B6000C91CF /* Flightless cormorant.png */; };
+		FD7FAE3A211180B6000C91CF /* Golden eagle.png in Resources */ = {isa = PBXBuildFile; fileRef = FD7FAE0A211180B6000C91CF /* Golden eagle.png */; };
+		FD7FAE3B211180B6000C91CF /* Great auk.png in Resources */ = {isa = PBXBuildFile; fileRef = FD7FAE0B211180B6000C91CF /* Great auk.png */; };
+		FD7FAE3C211180B6000C91CF /* Grey-headed albatross.png in Resources */ = {isa = PBXBuildFile; fileRef = FD7FAE0C211180B6000C91CF /* Grey-headed albatross.png */; };
+		FD7FAE3D211180B6000C91CF /* Indian Cormorant.png in Resources */ = {isa = PBXBuildFile; fileRef = FD7FAE0D211180B6000C91CF /* Indian Cormorant.png */; };
+		FD7FAE3E211180B7000C91CF /* Indian Roller.png in Resources */ = {isa = PBXBuildFile; fileRef = FD7FAE0E211180B6000C91CF /* Indian Roller.png */; };
+		FD7FAE3F211180B7000C91CF /* Kakapo.png in Resources */ = {isa = PBXBuildFile; fileRef = FD7FAE0F211180B6000C91CF /* Kakapo.png */; };
+		FD7FAE40211180B7000C91CF /* Ostrich.png in Resources */ = {isa = PBXBuildFile; fileRef = FD7FAE10211180B6000C91CF /* Ostrich.png */; };
+		FD7FAE41211180B7000C91CF /* Penguins.png in Resources */ = {isa = PBXBuildFile; fileRef = FD7FAE11211180B6000C91CF /* Penguins.png */; };
+		FD7FAE42211180B7000C91CF /* Peregrine falcon.png in Resources */ = {isa = PBXBuildFile; fileRef = FD7FAE12211180B6000C91CF /* Peregrine falcon.png */; };
+		FD7FAE43211180B7000C91CF /* Rock Pigeon.png in Resources */ = {isa = PBXBuildFile; fileRef = FD7FAE13211180B6000C91CF /* Rock Pigeon.png */; };
+		FD7FAE44211180B7000C91CF /* Sand Lark.png in Resources */ = {isa = PBXBuildFile; fileRef = FD7FAE14211180B6000C91CF /* Sand Lark.png */; };
+		FD7FAE45211180B7000C91CF /* Shikra.png in Resources */ = {isa = PBXBuildFile; fileRef = FD7FAE15211180B6000C91CF /* Shikra.png */; };
+		FD7FAE46211180B7000C91CF /* Snipe-rail.png in Resources */ = {isa = PBXBuildFile; fileRef = FD7FAE16211180B6000C91CF /* Snipe-rail.png */; };
+		FD7FAE47211180B7000C91CF /* Steamer duck.png in Resources */ = {isa = PBXBuildFile; fileRef = FD7FAE17211180B6000C91CF /* Steamer duck.png */; };
+		FD7FAE48211180B7000C91CF /* Streak-throated Woodpecker.png in Resources */ = {isa = PBXBuildFile; fileRef = FD7FAE18211180B6000C91CF /* Streak-throated Woodpecker.png */; };
+		FD7FAE49211180B7000C91CF /* Weka.png in Resources */ = {isa = PBXBuildFile; fileRef = FD7FAE19211180B6000C91CF /* Weka.png */; };
+		FD7FAE4A211180B7000C91CF /* BirdsList.plist in Resources */ = {isa = PBXBuildFile; fileRef = FD7FAE1A211180B6000C91CF /* BirdsList.plist */; };
+		FD7FAE4B211180B7000C91CF /* CIUDBirdListLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = FD7FAE1C211180B6000C91CF /* CIUDBirdListLoader.m */; };
+		FD7FAE4C211180B7000C91CF /* CIUDGameController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD7FAE1E211180B6000C91CF /* CIUDGameController.m */; };
+		FD7FAE4D211180B7000C91CF /* CIUDGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD7FAE20211180B6000C91CF /* CIUDGameViewController.m */; };
+		FD7FAE4E211180B7000C91CF /* CIUDGameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD7FAE21211180B6000C91CF /* CIUDGameViewController.xib */; };
+		FD7FAE4F211180B7000C91CF /* CIUDPlayerButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FD7FAE23211180B6000C91CF /* CIUDPlayerButton.m */; };
+		FD7FAE50211180B7000C91CF /* CIUDSelectPlayersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD7FAE25211180B6000C91CF /* CIUDSelectPlayersViewController.m */; };
+		FD7FAE51211180B7000C91CF /* CIUDSelectPlayersViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD7FAE26211180B6000C91CF /* CIUDSelectPlayersViewController.xib */; };
+		FD7FAE52211180B7000C91CF /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FD7FAE28211180B6000C91CF /* Info.plist */; };
+		FD7FAE53211180B7000C91CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD7FAE29211180B6000C91CF /* main.m */; };
+		FD7FAE54211180B7000C91CF /* CIUDHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD7FAE2C211180B6000C91CF /* CIUDHomeViewController.m */; };
+		FD7FAE55211180B7000C91CF /* CIUDHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD7FAE2D211180B6000C91CF /* CIUDHomeViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +62,54 @@
 		FD7FADF021118082000C91CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD7FADF321118082000C91CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD7FADF521118082000C91CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD7FADFC211180B6000C91CF /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		FD7FADFD211180B6000C91CF /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		FD7FADFE211180B6000C91CF /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		FD7FADFF211180B6000C91CF /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		FD7FAE00211180B6000C91CF /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FD7FAE01211180B6000C91CF /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FD7FAE03211180B6000C91CF /* Brown rock chat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Brown rock chat.png"; sourceTree = "<group>"; };
+		FD7FAE04211180B6000C91CF /* Campbell teal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Campbell teal.png"; sourceTree = "<group>"; };
+		FD7FAE05211180B6000C91CF /* Dodo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dodo.png; sourceTree = "<group>"; };
+		FD7FAE06211180B6000C91CF /* Eider.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Eider.png; sourceTree = "<group>"; };
+		FD7FAE07211180B6000C91CF /* fb-login-button-png-737.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fb-login-button-png-737.png"; sourceTree = "<group>"; };
+		FD7FAE08211180B6000C91CF /* fblogin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fblogin.png; sourceTree = "<group>"; };
+		FD7FAE09211180B6000C91CF /* Flightless cormorant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Flightless cormorant.png"; sourceTree = "<group>"; };
+		FD7FAE0A211180B6000C91CF /* Golden eagle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Golden eagle.png"; sourceTree = "<group>"; };
+		FD7FAE0B211180B6000C91CF /* Great auk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Great auk.png"; sourceTree = "<group>"; };
+		FD7FAE0C211180B6000C91CF /* Grey-headed albatross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Grey-headed albatross.png"; sourceTree = "<group>"; };
+		FD7FAE0D211180B6000C91CF /* Indian Cormorant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Indian Cormorant.png"; sourceTree = "<group>"; };
+		FD7FAE0E211180B6000C91CF /* Indian Roller.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Indian Roller.png"; sourceTree = "<group>"; };
+		FD7FAE0F211180B6000C91CF /* Kakapo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Kakapo.png; sourceTree = "<group>"; };
+		FD7FAE10211180B6000C91CF /* Ostrich.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ostrich.png; sourceTree = "<group>"; };
+		FD7FAE11211180B6000C91CF /* Penguins.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Penguins.png; sourceTree = "<group>"; };
+		FD7FAE12211180B6000C91CF /* Peregrine falcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Peregrine falcon.png"; sourceTree = "<group>"; };
+		FD7FAE13211180B6000C91CF /* Rock Pigeon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rock Pigeon.png"; sourceTree = "<group>"; };
+		FD7FAE14211180B6000C91CF /* Sand Lark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sand Lark.png"; sourceTree = "<group>"; };
+		FD7FAE15211180B6000C91CF /* Shikra.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Shikra.png; sourceTree = "<group>"; };
+		FD7FAE16211180B6000C91CF /* Snipe-rail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Snipe-rail.png"; sourceTree = "<group>"; };
+		FD7FAE17211180B6000C91CF /* Steamer duck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Steamer duck.png"; sourceTree = "<group>"; };
+		FD7FAE18211180B6000C91CF /* Streak-throated Woodpecker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Streak-throated Woodpecker.png"; sourceTree = "<group>"; };
+		FD7FAE19211180B6000C91CF /* Weka.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Weka.png; sourceTree = "<group>"; };
+		FD7FAE1A211180B6000C91CF /* BirdsList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BirdsList.plist; sourceTree = "<group>"; };
+		FD7FAE1B211180B6000C91CF /* CIUDBirdListLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIUDBirdListLoader.h; sourceTree = "<group>"; };
+		FD7FAE1C211180B6000C91CF /* CIUDBirdListLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIUDBirdListLoader.m; sourceTree = "<group>"; };
+		FD7FAE1D211180B6000C91CF /* CIUDGameController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIUDGameController.h; sourceTree = "<group>"; };
+		FD7FAE1E211180B6000C91CF /* CIUDGameController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIUDGameController.m; sourceTree = "<group>"; };
+		FD7FAE1F211180B6000C91CF /* CIUDGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIUDGameViewController.h; sourceTree = "<group>"; };
+		FD7FAE20211180B6000C91CF /* CIUDGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIUDGameViewController.m; sourceTree = "<group>"; };
+		FD7FAE21211180B6000C91CF /* CIUDGameViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CIUDGameViewController.xib; sourceTree = "<group>"; };
+		FD7FAE22211180B6000C91CF /* CIUDPlayerButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIUDPlayerButton.h; sourceTree = "<group>"; };
+		FD7FAE23211180B6000C91CF /* CIUDPlayerButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIUDPlayerButton.m; sourceTree = "<group>"; };
+		FD7FAE24211180B6000C91CF /* CIUDSelectPlayersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIUDSelectPlayersViewController.h; sourceTree = "<group>"; };
+		FD7FAE25211180B6000C91CF /* CIUDSelectPlayersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIUDSelectPlayersViewController.m; sourceTree = "<group>"; };
+		FD7FAE26211180B6000C91CF /* CIUDSelectPlayersViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CIUDSelectPlayersViewController.xib; sourceTree = "<group>"; };
+		FD7FAE27211180B6000C91CF /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		FD7FAE28211180B6000C91CF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD7FAE29211180B6000C91CF /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FD7FAE2B211180B6000C91CF /* CIUDHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIUDHomeViewController.h; sourceTree = "<group>"; };
+		FD7FAE2C211180B6000C91CF /* CIUDHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIUDHomeViewController.m; sourceTree = "<group>"; };
+		FD7FAE2D211180B6000C91CF /* CIUDHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CIUDHomeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +142,7 @@
 		FD7FADE821118082000C91CF /* GameDemoApp */ = {
 			isa = PBXGroup;
 			children = (
+				FD7FADFB211180B6000C91CF /* Sample code */,
 				FD7FADE921118082000C91CF /* AppDelegate.swift */,
 				FD7FADEB21118082000C91CF /* ViewController.swift */,
 				FD7FADED21118082000C91CF /* Main.storyboard */,
@@ -62,6 +151,77 @@
 				FD7FADF521118082000C91CF /* Info.plist */,
 			);
 			path = GameDemoApp;
+			sourceTree = "<group>";
+		};
+		FD7FADFB211180B6000C91CF /* Sample code */ = {
+			isa = PBXGroup;
+			children = (
+				FD7FADFC211180B6000C91CF /* 1.jpg */,
+				FD7FADFD211180B6000C91CF /* 2.jpg */,
+				FD7FADFE211180B6000C91CF /* 3.jpg */,
+				FD7FADFF211180B6000C91CF /* 4.jpg */,
+				FD7FAE00211180B6000C91CF /* AppDelegate.h */,
+				FD7FAE01211180B6000C91CF /* AppDelegate.m */,
+				FD7FAE02211180B6000C91CF /* BirdImages */,
+				FD7FAE1A211180B6000C91CF /* BirdsList.plist */,
+				FD7FAE1B211180B6000C91CF /* CIUDBirdListLoader.h */,
+				FD7FAE1C211180B6000C91CF /* CIUDBirdListLoader.m */,
+				FD7FAE1D211180B6000C91CF /* CIUDGameController.h */,
+				FD7FAE1E211180B6000C91CF /* CIUDGameController.m */,
+				FD7FAE1F211180B6000C91CF /* CIUDGameViewController.h */,
+				FD7FAE20211180B6000C91CF /* CIUDGameViewController.m */,
+				FD7FAE21211180B6000C91CF /* CIUDGameViewController.xib */,
+				FD7FAE22211180B6000C91CF /* CIUDPlayerButton.h */,
+				FD7FAE23211180B6000C91CF /* CIUDPlayerButton.m */,
+				FD7FAE24211180B6000C91CF /* CIUDSelectPlayersViewController.h */,
+				FD7FAE25211180B6000C91CF /* CIUDSelectPlayersViewController.m */,
+				FD7FAE26211180B6000C91CF /* CIUDSelectPlayersViewController.xib */,
+				FD7FAE27211180B6000C91CF /* Constants.h */,
+				FD7FAE28211180B6000C91CF /* Info.plist */,
+				FD7FAE29211180B6000C91CF /* main.m */,
+				FD7FAE2A211180B6000C91CF /* ViewControllers */,
+			);
+			path = "Sample code";
+			sourceTree = "<group>";
+		};
+		FD7FAE02211180B6000C91CF /* BirdImages */ = {
+			isa = PBXGroup;
+			children = (
+				FD7FAE03211180B6000C91CF /* Brown rock chat.png */,
+				FD7FAE04211180B6000C91CF /* Campbell teal.png */,
+				FD7FAE05211180B6000C91CF /* Dodo.png */,
+				FD7FAE06211180B6000C91CF /* Eider.png */,
+				FD7FAE07211180B6000C91CF /* fb-login-button-png-737.png */,
+				FD7FAE08211180B6000C91CF /* fblogin.png */,
+				FD7FAE09211180B6000C91CF /* Flightless cormorant.png */,
+				FD7FAE0A211180B6000C91CF /* Golden eagle.png */,
+				FD7FAE0B211180B6000C91CF /* Great auk.png */,
+				FD7FAE0C211180B6000C91CF /* Grey-headed albatross.png */,
+				FD7FAE0D211180B6000C91CF /* Indian Cormorant.png */,
+				FD7FAE0E211180B6000C91CF /* Indian Roller.png */,
+				FD7FAE0F211180B6000C91CF /* Kakapo.png */,
+				FD7FAE10211180B6000C91CF /* Ostrich.png */,
+				FD7FAE11211180B6000C91CF /* Penguins.png */,
+				FD7FAE12211180B6000C91CF /* Peregrine falcon.png */,
+				FD7FAE13211180B6000C91CF /* Rock Pigeon.png */,
+				FD7FAE14211180B6000C91CF /* Sand Lark.png */,
+				FD7FAE15211180B6000C91CF /* Shikra.png */,
+				FD7FAE16211180B6000C91CF /* Snipe-rail.png */,
+				FD7FAE17211180B6000C91CF /* Steamer duck.png */,
+				FD7FAE18211180B6000C91CF /* Streak-throated Woodpecker.png */,
+				FD7FAE19211180B6000C91CF /* Weka.png */,
+			);
+			path = BirdImages;
+			sourceTree = "<group>";
+		};
+		FD7FAE2A211180B6000C91CF /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FD7FAE2B211180B6000C91CF /* CIUDHomeViewController.h */,
+				FD7FAE2C211180B6000C91CF /* CIUDHomeViewController.m */,
+				FD7FAE2D211180B6000C91CF /* CIUDHomeViewController.xib */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,9 +282,41 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD7FAE3F211180B7000C91CF /* Kakapo.png in Resources */,
+				FD7FAE51211180B7000C91CF /* CIUDSelectPlayersViewController.xib in Resources */,
+				FD7FAE45211180B7000C91CF /* Shikra.png in Resources */,
+				FD7FAE42211180B7000C91CF /* Peregrine falcon.png in Resources */,
+				FD7FAE4A211180B7000C91CF /* BirdsList.plist in Resources */,
 				FD7FADF421118082000C91CF /* LaunchScreen.storyboard in Resources */,
+				FD7FAE43211180B7000C91CF /* Rock Pigeon.png in Resources */,
+				FD7FAE31211180B6000C91CF /* 4.jpg in Resources */,
+				FD7FAE36211180B6000C91CF /* Eider.png in Resources */,
+				FD7FAE3D211180B6000C91CF /* Indian Cormorant.png in Resources */,
+				FD7FAE52211180B7000C91CF /* Info.plist in Resources */,
+				FD7FAE4E211180B7000C91CF /* CIUDGameViewController.xib in Resources */,
+				FD7FAE55211180B7000C91CF /* CIUDHomeViewController.xib in Resources */,
+				FD7FAE3E211180B7000C91CF /* Indian Roller.png in Resources */,
+				FD7FAE44211180B7000C91CF /* Sand Lark.png in Resources */,
+				FD7FAE3C211180B6000C91CF /* Grey-headed albatross.png in Resources */,
+				FD7FAE2E211180B6000C91CF /* 1.jpg in Resources */,
+				FD7FAE41211180B7000C91CF /* Penguins.png in Resources */,
+				FD7FAE3B211180B6000C91CF /* Great auk.png in Resources */,
+				FD7FAE2F211180B6000C91CF /* 2.jpg in Resources */,
+				FD7FAE37211180B6000C91CF /* fb-login-button-png-737.png in Resources */,
+				FD7FAE30211180B6000C91CF /* 3.jpg in Resources */,
+				FD7FAE33211180B6000C91CF /* Brown rock chat.png in Resources */,
+				FD7FAE46211180B7000C91CF /* Snipe-rail.png in Resources */,
+				FD7FAE47211180B7000C91CF /* Steamer duck.png in Resources */,
 				FD7FADF121118082000C91CF /* Assets.xcassets in Resources */,
+				FD7FAE35211180B6000C91CF /* Dodo.png in Resources */,
+				FD7FAE34211180B6000C91CF /* Campbell teal.png in Resources */,
+				FD7FAE38211180B6000C91CF /* fblogin.png in Resources */,
+				FD7FAE3A211180B6000C91CF /* Golden eagle.png in Resources */,
+				FD7FAE40211180B7000C91CF /* Ostrich.png in Resources */,
 				FD7FADEF21118082000C91CF /* Main.storyboard in Resources */,
+				FD7FAE49211180B7000C91CF /* Weka.png in Resources */,
+				FD7FAE48211180B7000C91CF /* Streak-throated Woodpecker.png in Resources */,
+				FD7FAE39211180B6000C91CF /* Flightless cormorant.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +327,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD7FAE50211180B7000C91CF /* CIUDSelectPlayersViewController.m in Sources */,
+				FD7FAE4C211180B7000C91CF /* CIUDGameController.m in Sources */,
+				FD7FAE4F211180B7000C91CF /* CIUDPlayerButton.m in Sources */,
+				FD7FAE4B211180B7000C91CF /* CIUDBirdListLoader.m in Sources */,
+				FD7FAE54211180B7000C91CF /* CIUDHomeViewController.m in Sources */,
 				FD7FADEC21118082000C91CF /* ViewController.swift in Sources */,
 				FD7FADEA21118082000C91CF /* AppDelegate.swift in Sources */,
+				FD7FAE32211180B6000C91CF /* AppDelegate.m in Sources */,
+				FD7FAE53211180B7000C91CF /* main.m in Sources */,
+				FD7FAE4D211180B7000C91CF /* CIUDGameViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CIUDGameViewController">
+            <connections>
+                <outlet property="birdImageView" destination="QR1-SH-b2D" id="NSZ-8j-lap"/>
+                <outlet property="counterLabel" destination="F4U-FO-knQ" id="ueZ-VY-oHR"/>
+                <outlet property="player2nd" destination="rhr-1r-9Tw" id="phJ-5j-cbb"/>
+                <outlet property="player3rd" destination="lwk-qT-IzH" id="IG3-ht-zCj"/>
+                <outlet property="player4th" destination="1j2-bI-Ft2" id="3TT-4X-qH9"/>
+                <outlet property="player5th" destination="3hV-oR-eHH" id="jON-ZG-82w"/>
+                <outlet property="player6th" destination="udn-ts-Vd1" id="OUA-xa-FSd"/>
+                <outlet property="player7th" destination="ELF-zp-wph" id="jgu-oE-zvD"/>
+                <outlet property="player8th" destination="2KO-02-K4W" id="Ms9-zj-Shn"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="youButton" destination="hDh-9m-AsZ" id="p8j-Ri-W4Y"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="FUa-TH-IEI">
+                    <rect key="frame" x="225" y="225" width="150" height="150"/>
+                    <color key="backgroundColor" red="0.49614399380000002" green="1" blue="0.70940636369999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" relation="lessThanOrEqual" constant="200" id="7bS-8m-48l"/>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="Gd1-1P-XDc"/>
+                        <constraint firstAttribute="height" constant="150" id="peN-68-8nb"/>
+                        <constraint firstAttribute="width" constant="150" id="w1N-eC-hJd"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="7bS-8m-48l"/>
+                            <exclude reference="Gd1-1P-XDc"/>
+                        </mask>
+                    </variation>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hDh-9m-AsZ" customClass="CIUDPlayerButton">
+                    <rect key="frame" x="260" y="520" width="80" height="80"/>
+                    <color key="backgroundColor" red="0.8306437995" green="0.80615392959999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="80" id="OJA-rA-OMo"/>
+                        <constraint firstAttribute="width" constant="80" id="dNO-9F-FIi"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="playerNumber">
+                            <integer key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Egt-PB-Znx">
+                    <rect key="frame" x="378" y="280" width="40" height="40"/>
+                    <color key="backgroundColor" red="0.8306437995" green="0.80615392959999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="nqc-A5-j8E"/>
+                        <constraint firstAttribute="width" constant="40" id="saX-Hx-32s"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                    <state key="normal" title="X"/>
+                    <connections>
+                        <action selector="actionCloseGame:" destination="-1" eventType="touchUpInside" id="Wb9-7j-IG7"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rhr-1r-9Tw" customClass="CIUDPlayerButton">
+                    <rect key="frame" x="260" y="0.0" width="80" height="80"/>
+                    <color key="backgroundColor" red="0.8306437995" green="0.80615392959999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="80" id="cNf-wk-iJS"/>
+                        <constraint firstAttribute="width" constant="80" id="zbQ-pS-ao1"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="playerNumber">
+                            <integer key="value" value="2"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lwk-qT-IzH" customClass="CIUDPlayerButton">
+                    <rect key="frame" x="0.0" y="260" width="80" height="80"/>
+                    <color key="backgroundColor" red="0.8306437995" green="0.80615392959999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="80" id="Ksk-d7-Vxx"/>
+                        <constraint firstAttribute="height" constant="80" id="N0v-6C-rvv"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="playerNumber">
+                            <integer key="value" value="3"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1j2-bI-Ft2" customClass="CIUDPlayerButton">
+                    <rect key="frame" x="520" y="260" width="80" height="80"/>
+                    <color key="backgroundColor" red="0.8306437995" green="0.80615392959999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="80" id="J2n-IW-4Qo"/>
+                        <constraint firstAttribute="width" constant="80" id="hiQ-uX-c5L"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="playerNumber">
+                            <integer key="value" value="4"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3hV-oR-eHH" userLabel="Player 5th" customClass="CIUDPlayerButton">
+                    <rect key="frame" x="520" y="0.0" width="80" height="80"/>
+                    <color key="backgroundColor" red="0.8306437995" green="0.80615392959999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="80" id="G62-tn-eRj"/>
+                        <constraint firstAttribute="width" constant="80" id="frR-SP-RkX"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="playerNumber">
+                            <integer key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="udn-ts-Vd1" customClass="CIUDPlayerButton">
+                    <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                    <color key="backgroundColor" red="0.8306437995" green="0.80615392959999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="80" id="PeH-gD-McY"/>
+                        <constraint firstAttribute="width" constant="80" id="fgf-Bg-Rm9"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="playerNumber">
+                            <integer key="value" value="6"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ELF-zp-wph" customClass="CIUDPlayerButton">
+                    <rect key="frame" x="0.0" y="520" width="80" height="80"/>
+                    <color key="backgroundColor" red="0.8306437995" green="0.80615392959999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="80" id="jDx-i4-JuO"/>
+                        <constraint firstAttribute="height" constant="80" id="nhZ-WX-gYg"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="playerNumber">
+                            <integer key="value" value="7"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2KO-02-K4W" customClass="CIUDPlayerButton">
+                    <rect key="frame" x="520" y="520" width="80" height="80"/>
+                    <color key="backgroundColor" red="0.8306437995" green="0.80615392959999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="80" id="lcM-xX-Vhm"/>
+                        <constraint firstAttribute="height" constant="80" id="zPN-PB-sVL"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="playerNumber">
+                            <integer key="value" value="8"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="QR1-SH-b2D" userLabel="BirdImage">
+                    <rect key="frame" x="225" y="225" width="150" height="150"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="150" id="dgT-6t-4rR"/>
+                        <constraint firstAttribute="width" constant="150" id="oNA-uv-eFA"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F4U-FO-knQ">
+                    <rect key="frame" x="284" y="244" width="32" height="111"/>
+                    <fontDescription key="fontDescription" name="AlNile" family="Al Nile" pointSize="81"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="lwk-qT-IzH" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="1o0-GP-Sdg"/>
+                <constraint firstItem="QR1-SH-b2D" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="2FE-KO-WFm"/>
+                <constraint firstAttribute="bottom" secondItem="ELF-zp-wph" secondAttribute="bottom" id="2XP-8d-NGn"/>
+                <constraint firstItem="udn-ts-Vd1" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="3Bk-Vt-LWp"/>
+                <constraint firstItem="FUa-TH-IEI" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="4WO-1H-t70"/>
+                <constraint firstItem="hDh-9m-AsZ" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="7l4-s2-dSh"/>
+                <constraint firstItem="Egt-PB-Znx" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="GJN-ol-fJw"/>
+                <constraint firstItem="3hV-oR-eHH" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="HTv-rz-Tup"/>
+                <constraint firstItem="F4U-FO-knQ" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="JWt-aR-fEE"/>
+                <constraint firstItem="FUa-TH-IEI" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="Kdy-NN-hXJ"/>
+                <constraint firstItem="udn-ts-Vd1" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="LLP-CU-TUs"/>
+                <constraint firstItem="1j2-bI-Ft2" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="MmF-mO-uZT"/>
+                <constraint firstItem="ELF-zp-wph" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Ro8-lZ-f8H"/>
+                <constraint firstAttribute="trailing" secondItem="1j2-bI-Ft2" secondAttribute="trailing" id="Rqg-zR-ZcK"/>
+                <constraint firstAttribute="trailing" secondItem="3hV-oR-eHH" secondAttribute="trailing" id="RzL-Gw-5rG"/>
+                <constraint firstItem="FUa-TH-IEI" firstAttribute="top" secondItem="rhr-1r-9Tw" secondAttribute="bottom" constant="120" id="SOJ-lq-HID"/>
+                <constraint firstAttribute="bottom" secondItem="hDh-9m-AsZ" secondAttribute="bottom" id="SSj-0b-0u1"/>
+                <constraint firstItem="QR1-SH-b2D" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="VEY-C3-prE"/>
+                <constraint firstAttribute="bottom" secondItem="2KO-02-K4W" secondAttribute="bottom" id="Y03-Sa-CLL"/>
+                <constraint firstItem="hDh-9m-AsZ" firstAttribute="top" secondItem="FUa-TH-IEI" secondAttribute="bottom" constant="120" id="b5M-ZW-rXj"/>
+                <constraint firstItem="lwk-qT-IzH" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="e8q-av-aWQ"/>
+                <constraint firstItem="rhr-1r-9Tw" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="kF8-aC-b6u"/>
+                <constraint firstAttribute="bottom" secondItem="hDh-9m-AsZ" secondAttribute="bottom" id="kpJ-YY-pjC"/>
+                <constraint firstItem="Egt-PB-Znx" firstAttribute="leading" secondItem="FUa-TH-IEI" secondAttribute="trailing" constant="3" id="lpS-XZ-mJo"/>
+                <constraint firstItem="F4U-FO-knQ" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="o8g-K0-km2"/>
+                <constraint firstItem="rhr-1r-9Tw" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="xZK-PW-Q6H"/>
+                <constraint firstAttribute="trailing" secondItem="2KO-02-K4W" secondAttribute="trailing" id="yWh-vI-w1Y"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="SOJ-lq-HID"/>
+                    <exclude reference="SSj-0b-0u1"/>
+                    <exclude reference="b5M-ZW-rXj"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="494" y="410"/>
+        </view>
+    </objects>
+</document>
